@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> if this changes then git works
+          Edit <code>src/App.js</code> git might work now
         </p>
         <a
           className="App-link"
