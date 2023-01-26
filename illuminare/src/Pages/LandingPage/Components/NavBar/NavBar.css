@@ -1,0 +1,58 @@
+:root {
+    --bg-primary: #1B2337;
+    --text-primary: #FE25CE;
+    --text-secondary: #90FCF9;
+    --primary-border:border: 2px solid #FE259B;
+    --primary-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 25px 2px #FE259B;
+    --secondary-border: 2px solid #90FCF9;
+    --secondary-box-shadow: 0px 0px 50px 5px #90FCF9, 0px 0px 50px 5px #90FCF9;
+    --secondary-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 20px #90FCF9;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:before,
+:after {
+    box-sizing: border-box;
+}
+  
+html {
+  scroll-behavior: smooth;
+}
+  
+a {
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    background: var(--bg-primary);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    flex: 4;
+}
+
+.logo_container,
+.nav_link {
+  display: flex;
+}
+
+.logo_container {
+  flex: 2;
+}
